@@ -1,0 +1,86 @@
+1. Understand Basic Concepts
+Graph Representation:
+
+Adjacency Matrix
+Adjacency List
+Graph Traversal:
+
+Depth First Search (DFS)
+Breadth First Search (BFS)
+Graph Types:
+
+Directed, Undirected
+Weighted, Unweighted
+Basic Algorithms:
+
+Shortest Path
+Connected Components
+Cycle Detection
+Topological Sort
+Problems to Start With:
+DFS/BFS:
+
+200. Number of Islands
+733. Flood Fill
+547. Number of Provinces
+Cycle Detection:
+
+207. Course Schedule
+785. Is Graph Bipartite?
+Connected Components:
+
+130. Surrounded Regions
+1020. Number of Enclaves
+2. Intermediate Concepts
+Shortest Path Algorithms:
+
+Dijkstra, Bellman-Ford, Floyd-Warshall
+Topological Sorting:
+
+Kahn’s Algorithm, DFS-based
+Minimum Spanning Tree:
+
+Kruskal’s Algorithm, Prim’s Algorithm
+Strongly Connected Components (SCC):
+
+Kosaraju’s Algorithm, Tarjan’s Algorithm
+Problems to Solve:
+Shortest Path:
+
+399. Evaluate Division
+743. Network Delay Time
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+Topological Sort:
+
+210. Course Schedule II
+Minimum Spanning Tree:
+
+1494. Parallel Courses II
+1466. Reorder Routes to Make All Paths Lead to the City Zero
+1135. Connecting Cities With Minimum Cost
+1584. Min Cost to Connect All Points
+1162. As Far from Land as Possible
+1139. Largest 1-Bordered Square
+3. Advanced Concepts
+Network Flow:
+
+Ford-Fulkerson, Edmonds-Karp
+Graph Coloring:
+
+Greedy Coloring, Chromatic Number
+Strongly Connected Components (SCC):
+
+Kosaraju’s Algorithm, Tarjan’s Algorithm
+Shortest Path in Weighted Graph:
+
+A*, Bellman-Ford
+Problems to Solve:
+Network Flow:
+
+886. Possible Bipartition
+797. All Paths From Source to Target
+Graph Coloring:
+
+149. Max Points on a Line
+1494. Parallel Courses II
+

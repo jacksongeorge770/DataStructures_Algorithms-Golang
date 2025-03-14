@@ -1,0 +1,76 @@
+//https://leetcode.com/problems/merge-intervals/
+
+func merge(intervals [][]int) [][]int {
+   
+   
+   if len(intervals)<=1{
+    return intervals
+   }
+   var result [][]int
+
+   quickSort(intervals)
+
+   for _,arr:=range intervals{
+
+       if len(result)==0||result[len(result)-1][1]<arr[0]{
+           
+           result=append(result,arr)
+       }else{     
+      
+    result[len(result)-1][1]=max(result[len(result)-1][1],arr[1])
+   
+       }
+       
+    }
+
+ return result
+}
+
+func mergeSort(intervals [][]int)[][]int{
+    if len(intervals)<=1{
+    return intervals
+   }
+     mid:=len(intervals)/2
+     left:=mergeSort(intervals[:mid])
+     right:=mergeSort(intervals[mid:])
+     return mergeArray(left,right)
+}
+
+func mergeArray(left,right [][]int)[][]int{
+
+  var result [][]int
+  i,j:=0,0
+  
+  
+  for i<len(left)&&j<len(right){
+    if left[i][0]<right[j][0]{
+        result=append(result,left[i])
+        i++
+    }else{
+        result=append(result,right[j])
+        j++
+ 
+    }
+    
+  
+
+  }
+    result=append(result,left[i:]...)
+    result=append(result,right[j:]...)
+
+  return result
+}
+func max(a,b int) int{
+    if a<b{
+        return b
+    }
+    return a
+}
+
+func quickSort(interval [][]int){
+
+    sort.Slice(interval,func (i,j int) bool{
+             
+        return interval[i][0]<interval[j][0]
+    })
+}

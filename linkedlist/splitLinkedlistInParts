@@ -1,0 +1,58 @@
+//https://leetcode.com/problems/split-linked-list-in-parts/?envType=problem-list-v2&envId=9gvhzx23
+
+
+
+func splitListToParts(head *ListNode, k int) []*ListNode {
+        
+
+   length:=findlength(head)  //finding length
+   split:=length/k          //find batch to split
+   remaining:=length%k      //remaining node
+   
+   result:=make([]*ListNode,k)  //array
+   cur:=head                    //curr node  
+   for i:=0;i < k;i++{
+        
+     result[i]=cur         //store first node
+     
+     partition:=split   //
+     
+     if remaining>0{
+        partition++
+        remaining--
+     }
+
+     for j:=1;j<partition;j++{
+         if cur!=nil{
+          
+          cur=cur.Next
+
+         }
+
+     }
+    
+    if cur!=nil{
+    next:=cur.Next
+    cur.Next=nil
+    cur=next
+    
+    }
+   
+       
+}   
+ 
+
+ return result
+}
+
+
+func findlength(head *ListNode) int{
+    var length int
+    cur:=head
+    for cur!=nil {
+      
+      length++
+      cur=cur.Next
+    }
+   return length
+}

@@ -1,0 +1,93 @@
+1. Understand Basic Concepts:
+DFS/BFS:
+
+200. Number of Islands
+733. Flood Fill
+547. Number of Provinces
+463. Island Perimeter
+1091. Shortest Path in Binary Matrix
+Cycle Detection:
+
+207. Course Schedule
+785. Is Graph Bipartite?
+284. Peeking Iterator
+1136. Parallel Courses
+Connected Components:
+
+130. Surrounded Regions
+1020. Number of Enclaves
+695. Max Area of Island
+1034. A Border of Ones
+Total Problems in Basic Concepts: 10 problems
+
+2. Intermediate Concepts:
+Shortest Path:
+
+399. Evaluate Division
+743. Network Delay Time
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+1091. Shortest Path in Binary Matrix
+126. Word Ladder II
+329. Longest Increasing Path in a Matrix
+1631. Path With Minimum Effort
+1632. Rank Teams by Votes
+Topological Sort:
+
+210. Course Schedule II
+444. Sequence Reconstruction
+1135. Connecting Cities With Minimum Cost
+Minimum Spanning Tree:
+
+1494. Parallel Courses II
+1466. Reorder Routes to Make All Paths Lead to the City Zero
+1135. Connecting Cities With Minimum Cost
+1584. Min Cost to Connect All Points
+1162. As Far from Land as Possible
+1139. Largest 1-Bordered Square
+1192. Critical Connections in a Network
+1584. Min Cost to Connect All Points
+Prim’s Algorithm & Kruskal’s Algorithm:
+
+1584. Min Cost to Connect All Points
+1192. Critical Connections in a Network
+1135. Connecting Cities With Minimum Cost
+1584. Min Cost to Connect All Points
+Total Problems in Intermediate Concepts: 16 problems
+
+3. Advanced Concepts:
+Network Flow:
+
+886. Possible Bipartition
+797. All Paths From Source to Target
+1526. Minimum Number of Increments on Subarrays to Form a Target Array
+Graph Coloring:
+
+149. Max Points on a Line
+1494. Parallel Courses II
+1042. Flower Planting With No Adjacent Flowers
+Strongly Connected Components (SCC):
+
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+1102. Path With Maximum Minimum Value
+1192. Critical Connections in a Network
+Bellman-Ford Algorithm & Shortest Path in Weighted Graph:
+
+1631. Path With Minimum Effort
+1744. Can You Eat Your Favorite Fruit?
+343. Integer Break
+50. Pow(x, n)
+4. Additional Problems for Further Mastery:
+Cycle Detection & Graph Traversal:
+
+1319. Number of Operations to Make Network Connected
+684. Redundant Connection
+785. Is Graph Bipartite?
+399. Evaluate Division
+Dynamic Programming in Graphs:
+
+329. Longest Increasing Path in a Matrix
+741. Cherry Pickup
+Network Flow & Minimum Cost:
+
+1135. Connecting Cities With Minimum Cost
+1192. Critical Connections in a Network
